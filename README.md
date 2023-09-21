@@ -14,4 +14,4 @@ The use of predifined standards in software developement is important because it
 ## Discuss in your own words ways in which a software developer can employ ethical habits when writing code.
 A way for a software developer to employ ethicical habits when wrting code is through the use of coding standards. Making sure your team is on the same page can be an employment of ethical habits as it allows inclusivity. This can also reduce the act of stealing others code from online sources.
 ## Describe the contents of the file(s) in this repository. Note: students may wish to revisit this at or near the end of the assignment.
-The content of the files in this repository is about the declaration, updating and use of the different simple data types in Python (Dict, List, Tuple and Sets)
+The content of the files in this repository is about the declaration, updating and use of the different data types (Int, Float, Str, Bool) and more complex data types (Dict, List, Tuple and Sets) in Python 
