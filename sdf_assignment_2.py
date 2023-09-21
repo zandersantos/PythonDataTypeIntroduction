@@ -9,18 +9,18 @@ Usage: To gain experience with the different data types on python
 
     # string data type
 name = "Zander"
-print("value:" , " " , name , " " , "type:" , " " ,  type(name))
+print("value:", name , "type:", type(name))
 
     # boolean data type
 validManitobaDriversLicence = True
-print("value:" , " " , validManitobaDriversLicence , " " , "type:" , " " ,  type(validManitobaDriversLicence))
+print("value:", validManitobaDriversLicence, "type:", type(validManitobaDriversLicence))
 
     # int data type
 currentYear =  2023
-print("this year:" , " " , currentYear , " " , "type:" , " " ,  type(currentYear))
+print("this year:", currentYear, "type:", type(currentYear))
 
 currentYear += 1
-print("next year:" , " " , currentYear , " " , "type:" , " " ,  type(currentYear))
+print("next year:", currentYear, "type:", type(currentYear))
 
 #CALCULATIONS
 GST = 5.00
@@ -29,10 +29,20 @@ PST = 7.00
 vehicleCost = 61000.5
 
     # prints pre-tax value, gst, pst and also calculates the vehicle cost + gst of vehicle + pst of vehicle
-print("pre-tax value:" , vehicleCost , " PST: ", PST, " GST: ", GST, "total: ", vehicleCost + ((GST * vehicleCost)/100) + ((PST * vehicleCost)/100) )
+print("pre-tax value:",
+      vehicleCost,
+      "PST:",
+      PST,
+      "GST:",
+      GST,
+      "total:",
+      vehicleCost + ((GST * vehicleCost)/100) + ((PST * vehicleCost)/100))
 
     # ,.2f gives it a decimal placement of 2 while also adding a , so it look like a value amount
-print(f"pre-tax value: ${vehicleCost:,.2f}", f" PST: {PST:,.2f}", f" GST: {GST:,.2f}", f" total: ${vehicleCost + ((GST * vehicleCost)/100) + ((PST * vehicleCost)/100):,.2f}")
+print(f"pre-tax value: ${vehicleCost:,.2f}",
+      f" PST: {PST:,.2f}",
+      f" GST: {GST:,.2f}",
+      f" total: ${vehicleCost + ((GST * vehicleCost)/100) + ((PST * vehicleCost)/100):,.2f}")
 
 #LISTS
 
