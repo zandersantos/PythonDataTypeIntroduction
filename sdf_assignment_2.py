@@ -19,6 +19,14 @@ currentYear += 1
 print("next year:" , " " , currentYear , " " , "type:" , " " ,  type(currentYear))
 
 #CALCULATIONS
+GST = 5.00
+PST = 7.00
+
+vehicleCost = 61000.5
+
+print("pre-tax value:" , vehicleCost , " PST: ", PST, " GST: ", GST, "total: ", vehicleCost + ((GST * vehicleCost)/100) + ((PST * vehicleCost)/100) )
+print(f"pre-tax value: ${vehicleCost:,.2f}", f" PST: {PST:,.2f}", f" GST: {GST:,.2f}", f" total: ${vehicleCost + ((GST * vehicleCost)/100) + ((PST * vehicleCost)/100):,.2f}")
+
 
 #LISTS
 
