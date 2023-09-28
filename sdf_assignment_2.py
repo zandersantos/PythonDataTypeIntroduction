@@ -112,5 +112,3 @@ print(setOnlyIn2)
     # creates a set that only appears in setMultipleOf5
 setOnlyIn5 = setMultiplesOf5.difference(setMultiplesOf2)
 print(setOnlyIn5)
-
-
